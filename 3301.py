@@ -1,0 +1,30 @@
+a=int(input())
+count=0
+while(a>9):
+    if(a>=50000):
+        a=a-50000
+        count=count+1
+    elif(a>=10000):
+        a=a-10000
+        count=count+1
+    elif(a>=5000):
+        a=a-5000
+        count=count+1
+    elif(a>=1000):
+        a=a-1000
+        count=count+1
+    elif(a>=500):
+        a=a-500
+        count=count+1
+    elif(a>=100):
+        a=a-100
+        count=count+1
+    elif(a>=50):
+        a=a-50
+        count=count+1
+    elif(a>=10):
+        a=a-10
+        count=count+1
+    
+print(count)
+    
